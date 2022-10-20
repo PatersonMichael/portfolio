@@ -28,7 +28,7 @@ const Hero = () => {
                     I build User Experiences.
                 </p>
                 <a href="#Projects">
-                    <button className="projects-button px-4 py-1 md:px-6 md:py-2 border-gray-300 border-4 rounded-md text-gray-300 mt-12 font-bold text-md md:text-xl">
+                    <button className="projects-button px-4 py-1 md:px-6 md:py-2 border-gray-200 border-4 rounded-md text-gray-200 mt-12 font-bold text-md md:text-xl">
                         Projects
                     </button>
                 </a>

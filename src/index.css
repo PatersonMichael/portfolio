@@ -19,12 +19,12 @@ body {
 }
 
 .hire-button:hover {
-    @apply bg-black text-gray-200 border-2 border-gray-200 px-[1.5rem];
+    @apply transition-colors bg-black text-gray-200 border-2 border-gray-200 px-[1.5rem];
 }
 
 .projects-button:hover,
 .projects-button:active {
-    @apply bg-gray-300 text-black;
+    @apply transition-colors bg-gray-200 text-black;
 }
 
 @keyframes dropdown {

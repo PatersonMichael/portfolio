@@ -17,13 +17,13 @@ const Nav = () => {
         <div className="font-lato">
             {/* Normal Nav */}
             <nav className="bg-black fixed z-50 w-[100vw] h-14 flex items-center justify-between">
-                <h1 className="text-white font-bold text-2xl pl-8">
+                <h1 className="text-gray-200 font-bold text-2xl pl-8">
                     <a onClick={() => closeMenu()} href="#">
                         Michael Paterson
                     </a>
                 </h1>
                 {/* Small Nav */}
-                <nav className="nav-small md:hidden text-white pr-11 mt-2 z-1 relative">
+                <nav className="nav-small md:hidden text-gray-200 pr-11 mt-2 z-1 relative">
                     <button
                         onClick={handleToggle}
                         className="cursor-pointer hover:animate-pulse">
@@ -70,7 +70,7 @@ const Nav = () => {
                     </ul>
                 </nav>
                 {/* End Small Nav */}
-                <ul className="text-white hidden md:flex flex-row pr-11 font-bold text-xl items-center justify-end">
+                <ul className="text-gray-200 hidden md:flex flex-row pr-11 font-bold text-xl items-center justify-end">
                     <li className="pr-6 align-middle">
                         <a href="#Skills">Skills</a>
                     </li>
