@@ -8,7 +8,7 @@ import "./index.css";
 
 function App() {
     return (
-        <div>
+        <div className="border-box">
             <Nav />
             <Hero />
             <Skills />
