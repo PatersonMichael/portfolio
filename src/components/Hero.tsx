@@ -21,15 +21,17 @@ const Hero = () => {
     return (
         <div className="w-screen h-screen flex items-center justify-center hero">
             <div className="hero-text text-center font-lato">
-                <h1 className="text-5xl font-bold text-white">
+                <h1 className="text-3xl md:text-5xl font-bold text-white">
                     I am Michael Paterson
                 </h1>
-                <p className="mt-3 text-3xl text-gray-300">
+                <p className="mt-3 text-xl md:text-3xl text-gray-300">
                     I build User Experiences.
                 </p>
-                <button className="projects-button px-6 border-gray-300 border-4 rounded-md text-gray-300 mt-12 font-bold py-2 text-xl">
-                    <a href="#Projects">Projects</a>
-                </button>
+                <a href="#Projects">
+                    <button className="projects-button px-4 py-1 md:px-6 md:py-2 border-gray-300 border-4 rounded-md text-gray-300 mt-12 font-bold text-md md:text-xl">
+                        Projects
+                    </button>
+                </a>
             </div>
         </div>
     );
