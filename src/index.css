@@ -66,8 +66,26 @@ body {
     }
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
 .card-icon:hover {
     animation: bounce 0.5s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+}
+
+.skillsGrid {
+    row-gap: 0.5rem;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+@media (min-width: 1024px) {
+    .skillsGrid {
+        column-gap: 8rem;
+        row-gap: 1.5rem;
+    }
 }
