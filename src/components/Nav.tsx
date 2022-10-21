@@ -16,7 +16,7 @@ const Nav = () => {
     return (
         <div className="font-lato">
             {/* Normal Nav */}
-            <nav className="bg-black fixed z-50 w-[100vw] h-14 flex items-center justify-between">
+            <nav className="bg-body fixed z-50 w-[100vw] h-14 flex items-center justify-between">
                 <h1 className="text-gray-200 font-bold text-2xl pl-8">
                     <a onClick={() => closeMenu()} href="#">
                         Michael Paterson

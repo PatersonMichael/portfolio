@@ -19,7 +19,7 @@ import forestLake from "../assets/forestLake.jpg";
 
 const Hero = () => {
     return (
-        <div className="w-screen h-screen flex items-center justify-center hero">
+        <div className="w-screen h-screen flex items-center justify-center hero drop-shadow-lg">
             <div className="hero-text text-center font-lato">
                 <h1 className="text-3xl md:text-5xl font-bold text-white">
                     I am Michael Paterson
